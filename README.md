@@ -1,8 +1,3 @@
-Below is a complete **README.md** you can copy directly into your project. It explains the project structure, Kustomize usage, deployment steps, and CI/CD pipeline setup and testing in a clear, end-to-end manner.
-
----
-
-```markdown
 # Implementing a Multi-Environment Application Deployment with Kustomize
 
 ## Overview
