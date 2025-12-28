@@ -1,0 +1,13 @@
+resources:
+  - ../../base
+
+nameSuffix: -prod
+
+patches:
+  - path: patch-deployment.yaml
+
+configMapGenerator:
+  - name: app-config
+    behavior: replace
+    literals:
+      - APP_ENV=prod

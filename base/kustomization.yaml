@@ -1,0 +1,9 @@
+resources:
+  - deployment.yaml
+  - service.yaml
+  
+  
+configMapGenerator:
+  - name: app-config
+    literals:
+      - APP_ENV=base
